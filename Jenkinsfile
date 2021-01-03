@@ -23,7 +23,7 @@ node{
              sh 'docker login -u "nameisnani" -p "Madman@64" docker.io'
              //sh 'docker push nameisnani/mysql'
              //sh 'docker push nameisnani/job1_web1.0'
-             sh 'docker push nameisnani'
+             sh 'docker push nameisnani/job1_web2.0:demo_web:latest'
             // sh 'docker push nameisnani/mysql'
           
     }
