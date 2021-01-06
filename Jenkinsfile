@@ -2,7 +2,7 @@ node{
 
     stage('SCM Checkout')
     {
-        git credentialsId: 'ba8f2503-3401-41c4-93e4-cd5a0f4ba9c6', url: 'https://github.com/Raksniru/online-shop.git'
+        git credentialsId: '084a0c30-7b5f-45df-b39b-a390983bbb33', url: 'https://github.com/Raksniru/online-shop.git'
     }
     
     stage('Run Docker Compose File')
