@@ -7,6 +7,7 @@ node{
     
     stage('Run Docker Compose File')
     {
+        sh 'cd onlineshop/'
         sh 'docker-compose build'
         sh 'docker-compose up -d'
     }
